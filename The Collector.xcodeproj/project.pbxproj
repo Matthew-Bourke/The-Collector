@@ -52,7 +52,7 @@
 		C92A21B61F482B8100238227 /* The_CollectorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_CollectorUITests.swift; sourceTree = "<group>"; };
 		C92A21B81F482B8100238227 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C92A21C61F48326B00238227 /* IMG_1727 (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "IMG_1727 (1).jpg"; sourceTree = "<group>"; };
-		C92A21CA1F484D4E00238227 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		C92A21CA1F484D4E00238227 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameViewController.swift; path = ../GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,6 @@
 		C92A21871F482B8100238227 = {
 			isa = PBXGroup;
 			children = (
-				C92A21CA1F484D4E00238227 /* GameViewController.swift */,
 				C92A21921F482B8100238227 /* The Collector */,
 				C92A21AA1F482B8100238227 /* The CollectorTests */,
 				C92A21B51F482B8100238227 /* The CollectorUITests */,
@@ -107,6 +106,7 @@
 				C92A21C61F48326B00238227 /* IMG_1727 (1).jpg */,
 				C92A21931F482B8100238227 /* AppDelegate.swift */,
 				C92A21951F482B8100238227 /* ViewController.swift */,
+				C92A21CA1F484D4E00238227 /* GameViewController.swift */,
 				C92A21971F482B8100238227 /* Main.storyboard */,
 				C92A219D1F482B8100238227 /* Assets.xcassets */,
 				C92A219F1F482B8100238227 /* LaunchScreen.storyboard */,
