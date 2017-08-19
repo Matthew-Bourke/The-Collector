@@ -37,7 +37,7 @@ class GameViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     }
     
     @IBAction func photosTapped(_ sender: Any) {
-        imagePicker.sourceType = .photoLibrary
+        imagePicker.sourceType = .camera
         present(imagePicker, animated: true, completion: nil)
     }
     
@@ -50,6 +50,9 @@ class GameViewController: UIViewController, UIImagePickerControllerDelegate, UIN
     }
     
     @IBAction func cameraTapped(_ sender: Any) {
+        imagePicker.sourceType = .photoLibrary
+        
+        present(imagePicker, animated: true, completion: nil)
     }
     
     @IBAction func addTapped(_ sender: Any) {
